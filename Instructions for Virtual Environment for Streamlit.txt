@@ -1,0 +1,26 @@
+Use gitbash for cmd
+
+Once installed virtual environment package in normal environment,
+
+Step 1)
+go to the directory:
+$ cd /C/Users/user/Desktop/Streamlit
+
+Step 2)
+To make new virtual env,
+$ python -m venv venv
+
+It will create all necessary folders and files to start a virtual env.
+
+Step 3)
+Then,
+$ source venv/Scripts/activate
+
+then you can run your python file through the cmd/anaconda terminal.
+
+to check packages,
+$ pip freeze
+
+When done,
+$ deactivate
+
